@@ -10,11 +10,11 @@ export class FlightPage {
     await this.page.goto('https://firsttrip.com/flight');
   }
 
-  async selectOneWay() {
+  async selectOneWay () {
     await this.oneWayBtn.click();
   }
 
-  async chooseDate(daySelector) {
+  async chooseDate (daySelector) {
     await this.datePicker.first().click();
     await this.page.locator(daySelector).click();
   }
