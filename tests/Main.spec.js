@@ -1,6 +1,4 @@
 import { test } from '@playwright/test';
-
-
 import { FlightPage } from './pages/FlightPage';
 import { SearchResultPage } from './pages/SearchResultPage';
 import { SignInPage } from './pages/SignInPage';
@@ -39,8 +37,6 @@ test('Flight Search Assessment', async ({ page }) => {
 
 
   await popup.close();
-
-
   const prices = await resultPage.getPrices();
   console.log("Prices:", prices);
 
