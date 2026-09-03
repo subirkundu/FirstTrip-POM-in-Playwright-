@@ -3,7 +3,7 @@
 ## Overview
 This project is an automated test suite for flight search functionality, implemented using **Playwright** and **JavaScript**.  
 The test simulates a user searching for a one-way flight, selecting a date, handling popups for sign-in, and capturing flight prices.  
-The framework follows the **Page Object Model (POM)** to improve readability, maintainability, and scalability.
+The framework follows the **Page Object Model (POM)** to improve readability, maintainability, & scalability.
 
 ---
 
